@@ -15,3 +15,9 @@ const item3 = document.getElementById('grapes');
 item3.addEventListener('click', () => {
     item3.classList.toggle('picked');
 });
+
+const item4 = document.getElementById('bread');
+
+item4.addEventListener('click', () => {
+    item4.classList.toggle('picked');
+});
